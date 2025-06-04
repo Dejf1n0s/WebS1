@@ -1,0 +1,95 @@
+/* Reset a základ */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #2c3e50;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Hlavička */
+.hlavicka {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.hlavicka-obsah {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Úvodní sekce */
+.uvod {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.uvod-obsah {
+  flex: 1;
+  min-width: 280px;
+}
+
+.uvod-obrazek {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Sekce O nás */
+.o-nas {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Tlačítka */
+.tlacitko {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.tlacitko:hover {
+  background-color: #c0392b;
+}
+
+/* Patka */
+.patka {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
